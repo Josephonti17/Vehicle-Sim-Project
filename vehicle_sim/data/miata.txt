@@ -1,0 +1,34 @@
+# 2018 Mazda MX-5 Miata (ND, 2.0L, 6-speed manual)
+# Approximate published figures: 155 hp @ 6000 rpm, 148 lb-ft @ 4600 rpm
+# (Pre-2019 ND1 spec.)
+name=2018 Mazda Miata
+mass=1061
+cd=0.35
+frontal_area=1.85
+idle=750
+redline=6800
+
+# 148 lb-ft = ~200 Nm
+torque=1000,130
+torque=1500,155
+torque=2000,170
+torque=2500,180
+torque=3000,188
+torque=3500,193
+torque=4000,197
+torque=4600,200
+torque=5000,195
+torque=5500,185
+torque=6000,170
+torque=6500,150
+torque=6800,135
+
+gears=5.087,2.991,1.938,1.392,1.000,0.760
+final_drive=2.866
+efficiency=0.88
+
+tire_radius=0.305
+rolling_resistance=0.011
+grip=0.90
+
+driver=optimal

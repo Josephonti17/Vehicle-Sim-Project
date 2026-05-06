@@ -1,0 +1,34 @@
+# 2018 Ford Mustang GT (S550, 5.0L Coyote, 6-speed manual)
+# Approximate published figures: 460 hp @ 7000 rpm, 420 lb-ft @ 4600 rpm
+name=2018 Mustang GT
+mass=1696
+cd=0.36
+frontal_area=2.25
+idle=800
+redline=7500
+
+# 420 lb-ft = ~569 Nm
+torque=1000,380
+torque=1500,440
+torque=2000,490
+torque=2500,515
+torque=3000,530
+torque=3500,545
+torque=4000,560
+torque=4600,569
+torque=5000,560
+torque=5500,540
+torque=6000,510
+torque=6500,475
+torque=7000,440
+torque=7500,395
+
+gears=4.236,2.538,1.665,1.238,1.000,0.756
+final_drive=3.73
+efficiency=0.85
+
+tire_radius=0.340
+rolling_resistance=0.012
+grip=0.90
+
+driver=optimal

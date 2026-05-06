@@ -1,0 +1,33 @@
+# 2018 Ford Mustang EcoBoost (S550, 6-speed manual)
+# Approximate published figures: 310 hp @ 5500 rpm, 350 lb-ft @ 3000 rpm
+name=2018 Mustang EcoBoost
+mass=1664
+cd=0.35
+frontal_area=2.25
+idle=800
+redline=6500
+
+# Torque curve in (RPM, Nm). 350 lb-ft = ~475 Nm
+torque=1000,300
+torque=1500,400
+torque=2000,450
+torque=2500,470
+torque=3000,475
+torque=3500,470
+torque=4000,455
+torque=4500,440
+torque=5000,420
+torque=5500,395
+torque=6000,365
+torque=6500,330
+
+# 6-speed manual gear ratios
+gears=4.236,2.538,1.665,1.238,1.000,0.756
+final_drive=3.31
+efficiency=0.85
+
+tire_radius=0.333
+rolling_resistance=0.012
+grip=0.85
+
+driver=optimal

@@ -1,6 +1,3 @@
-// main.cpp
-// Command-line interface for the Vehicle Performance Simulator.
-//
 // Supports:
 //   * Loading vehicles from key=value config files
 //   * Listing loaded vehicles
